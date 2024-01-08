@@ -1,0 +1,11 @@
+@layer components {
+    .body-standard {
+        @apply flex flex-col h-screen m-0 text-base text-corporate bg-tmbg;
+    }
+    .p-container {
+        @apply flex flex-col justify-center p-0 m-4 sm:flex-row;
+    }
+    .p-player {
+        @apply flex flex-col p-5 m-5 text-center bg-tmbg rounded-2xl shadow-sm sm:w-3/12 max-w-[400px];
+    }
+}

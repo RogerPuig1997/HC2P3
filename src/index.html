@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+  <!-- do not remove this line! -->
+  <title>Tennis Meet</title>
+</head>
+
+
+
+<body class="body-standard">
+  <include src="./views/header.html"></include>
+  <main class="bg-tennis-bg bg-center bg-cover h-screen ">
+    <div class="flex flex-col p-8 m-5 md:grid gap-4 grid-cols-5 grid-rows-4 m-0">
+      <include src="./views/m-title.html"></include>
+      <div
+        class="col-start-4 col-span-2 row-start-2 row-span-1 p-4 rounded-2xl bg-masterbrand bg-opacity-50 self-center">
+        <h2 class="text-3xl">Conecta con otros jugadores</h2>
+        <p>
+          Hay muchos jugadores en nuestra app esperando para jugar
+          contigo!
+        </p>
+      </div>
+      <div
+        class="col-start-2 col-span-2 row-start-3 row-span-1 p-4 rounded-2xl bg-masterbrand bg-opacity-50 self-center">
+        <h2 class="text-3xl">Contempla tu evolución</h2>
+        <p>
+          El sistema de ELO te permite ver tu mejora partido a
+          partido
+        </p>
+      </div>
+      <div
+        class="col-start-1 col-span-2 row-start-4 row-span-1 p-4 rounded-2xl bg-masterbrand bg-opacity-50 self-center">
+        <h2 class="text-3xl">Torneo anual</h2>
+        <p>
+          Un torneo abierto para todos los usuarios y dividido por
+          niveles
+        </p>
+      </div>
+      <div
+        class="col-start-4 col-span-2 row-start-4 row-span-1 p-4 rounded-2xl bg-masterbrand bg-opacity-50 self-center">
+        <h2 class="text-3xl">Pistas mas cerca</h2>
+        <p>Encuentra la pista mas cercanas al mejor precio</p>
+      </div>
+    </div>
+  </main>
+  <include src="./views/footer.html"></include>
+  <script type="module" src="./assets/scripts/main.js"></script>
+</body>
+
+</html>
